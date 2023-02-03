@@ -1,0 +1,19 @@
+@import "color";
+@import "navbar";
+@import "main";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: linear-gradient(to top, rgba(114, 84, 84, 0.5),rgba(159, 88, 88, 0.5)), url(images/1.jpg);
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+}

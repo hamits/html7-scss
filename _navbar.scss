@@ -1,0 +1,70 @@
+@import "color";
+@import"buton";
+
+%align-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    padding: 40px 10px;
+    @extend %align-center;
+
+    &_logo{
+        width: 15vw;
+        display: flex;
+        justify-content: center;
+        color: $color_main;
+        font-size: 35px;
+    }
+
+    &_menu{
+        ul{
+            padding: 10px 40px;
+            width: 50vw;
+            display: flex;
+            justify-content: space-between;
+
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: $color_3;
+                }
+
+                a:hover{
+                    color: $color_main;
+                }
+            }
+        }
+    }
+
+    &_search{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        input{
+            padding: 10px 0;
+            padding-left: 5px;
+            background-color: $color_2;
+            border: 1px rgb(183, 166, 135) solid;
+            border-start-start-radius: 10px;
+            border-bottom-left-radius: 10px;            
+        }
+        input:focus{
+            outline: none;
+            color: $color_main;
+        }
+
+        a{
+            button{
+              @extend %buton-1;
+            }
+            button:hover{
+                @extend %buton-1h;
+            }
+         } 
+    }
+}
+

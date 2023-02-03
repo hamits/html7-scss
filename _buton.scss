@@ -1,0 +1,55 @@
+@import "color";
+
+
+%buton-1 {
+        padding: 10px 40px;
+        background-color: $color_main;
+        color: $color_3;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: none;
+        transition: 0.5s;
+}
+
+%buton-1h {
+        background-color: transparent;
+        border: 1px solid $color_main;
+        color: $color_main;
+        transition: 0.2s;
+}
+
+
+%buton-2 {
+        margin-top: 20px;
+        padding: 10px 40px;
+        background-color: $color_main;
+        color: $color_3;
+        border-radius: 10px;
+        border: none;
+        transition: 0.5s;
+}
+
+%buton-2h {
+        background-color: transparent;
+        border: 1px solid $color_main;
+        color: $color_main;
+        transition: 0.2s;
+}
+
+%buton-3 {
+        margin-top: 20px;
+        width: 100%;
+        background-color: $color_buton3;
+        color: $color_main;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 0;
+        font-size: 20px;
+        margin-bottom: 15px;
+}
+
+%buton-3h:hover {
+        background-color: transparent;
+        color: $color_buton3;
+        border: 1px solid $color_2;
+}

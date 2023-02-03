@@ -1,0 +1,231 @@
+.navbar_search a button {
+  padding: 10px 40px;
+  background-color: #620554;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+.navbar_search a button:hover {
+  background-color: transparent;
+  border: 1px solid #620554;
+  color: #620554;
+  transition: 0.2s;
+}
+
+.main_text button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background-color: #620554;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+.main_text button:hover {
+  background-color: transparent;
+  border: 1px solid #620554;
+  color: #620554;
+  transition: 0.2s;
+}
+
+.main_login button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(227, 204, 165);
+  color: #620554;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 0;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.main_login button:hover {
+  background-color: transparent;
+  color: rgb(227, 204, 165);
+  border: 1px solid wheat;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding: 40px 10px;
+}
+.navbar_logo {
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  color: #620554;
+  font-size: 35px;
+}
+.navbar_menu ul {
+  padding: 10px 40px;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar_menu ul li {
+  list-style: none;
+}
+.navbar_menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar_menu ul li a:hover {
+  color: #620554;
+}
+.navbar_search {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.navbar_search input {
+  padding: 10px 0;
+  padding-left: 5px;
+  background-color: wheat;
+  border: 1px rgb(183, 166, 135) solid;
+  border-start-start-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.navbar_search input:focus {
+  outline: none;
+  color: #620554;
+}
+.navbar_search a button {
+  padding: 10px 40px;
+  background-color: #620554;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+.navbar_search a button:hover {
+  background-color: transparent;
+  border: 1px solid #620554;
+  color: #620554;
+  transition: 0.2s;
+}
+
+.main_text button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background-color: #620554;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+.main_text button:hover {
+  background-color: transparent;
+  border: 1px solid #620554;
+  color: #620554;
+  transition: 0.2s;
+}
+
+.main_login button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(227, 204, 165);
+  color: #620554;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 0;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.main_login button:hover {
+  background-color: transparent;
+  color: rgb(227, 204, 165);
+  border: 1px solid wheat;
+}
+
+.main_text {
+  width: 60%;
+  padding-top: 15vh;
+  padding-left: 70px;
+}
+.main_text h1 {
+  color: rgba(255, 255, 255, 0.681);
+  width: 60%;
+  font-size: 65px;
+}
+.main_text h1 span {
+  color: #620554;
+}
+.main_text p {
+  width: 60%;
+  color: rgba(255, 255, 255, 0.681);
+}
+.main_login {
+  width: 18vw;
+  margin-right: 200px;
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #620554;
+  border-radius: 15px;
+}
+.main_login h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: rgb(227, 204, 165);
+  color: #620554;
+}
+.main_login input {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 10px 0px;
+  padding-left: 5px;
+  background-color: #620554;
+  border: 1px solid wheat;
+  border-bottom: 2px solid wheat;
+}
+.main_login input:focus {
+  outline: none;
+  color: wheat;
+}
+.main_login p {
+  text-align: center;
+  color: rgb(227, 204, 165);
+}
+.main_login :nth-child(7) {
+  padding-top: 25px;
+}
+.main_login a {
+  text-decoration: none;
+  color: rgb(172, 103, 103);
+}
+.main_login_icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to top, rgba(114, 84, 84, 0.5), rgba(159, 88, 88, 0.5)), url(images/1.jpg);
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
